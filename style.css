@@ -1,0 +1,107 @@
+body {
+	max-width: 960px;
+}
+
+#wrapper {
+	background: beige;
+	border: 5px solid white;
+}
+
+ul {
+	padding: 30px;
+}
+
+li {
+	margin: 5px 10px 15px 5px;
+}
+
+h1 {
+	font-family: "Courier", Courier, monospace;
+	font-size: 37px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#str {
+	width: 39%;
+	display: block;
+	margin: 15px auto 0 auto;
+	text-decoration: underline;
+}
+
+p {
+	font-size: 20px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.str-list {
+	display: inline-block;
+	vertical-align: middle;
+	width: 400px;
+	height: 650px;
+	font-family: Helvetica;
+	border: solid blue 1px;
+	background-image: url("images/lego.jpg");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	z-index: 1;
+	}
+
+a:visited {
+	color: green;
+}
+
+a:hover {
+	color: red;
+	}
+
+#pierce {
+	position: fixed;
+	bottom: -8px;
+	right: -150px;
+	width: 300px;
+}
+
+#poster {
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	padding: 30px 0 30px 0;
+}
+
+figcaption {
+	font-style: italic;
+}
+
+#follow {
+	padding: 50px 0 50px 0;
+}
+
+blockquote {
+  border-left: 5px solid red;
+  padding: 20px;
+  margin-left: 0px;
+  font-family: "Comic Sans MS", Cursive, sans-serif;
+}
+
+cite {
+	font-style: italic;
+}
+
+#setting {
+	margin-bottom: 30%;
+}
+
+@media screen and (max-width: 500px) {
+	body {
+        float: none;
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+	body {
+		font-size: small;
+	}
+}
